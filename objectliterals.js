@@ -1,4 +1,4 @@
-/*let delhi={
+let delhi={
     latitide:"28.7041",
     longitude:"77.1025"
 };
@@ -70,12 +70,12 @@ const classInform=[
     city:"Gurugram"}
 ];
 console.log(classInform)
-*/
-// let num = Math.random();
-// num=num*5;
-// num=Math.floor(num);
-// num=num+21
-// console.log(num)
+
+let num = Math.random();
+num=num*5;
+num=Math.floor(num);
+num=num+21
+console.log(num)
 const max = prompt("enter the maximum number");
 console.log(max);
 const random=Math.floor(Math.random()*max)+1;
@@ -96,7 +96,7 @@ while(true){
     else{
         guess=prompt("Try with a larger value")
     }
-    // else{
-    //     guess=prompt("try again")
-    // }
+     else{
+         guess=prompt("try again")
+     }
 }
