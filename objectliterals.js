@@ -96,7 +96,5 @@ while(true){
     else{
         guess=prompt("Try with a larger value")
     }
-     else{
-         guess=prompt("try again")
-     }
+     
 }
